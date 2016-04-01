@@ -1,9 +1,10 @@
-/* In Insertion Sort, the basic idea is to divide the list in 2 portions: a sorted portion and an unsorted portion.
-In each pass a number is moved from unsorted to sorted portion.
-Initially all unsorted numbers are part of unsorted list in the right and then as we begin sorting we put sorted numbers to the left.
-We begin sorting from the second element, because the first element being only one element is already considered sorted.
-
-*/
+/*Author: Alok Sharma
+*In Insertion Sort, the basic idea is to divide the list in 2 portions: a sorted portion and an unsorted portion.
+*In each pass a number is moved from unsorted to sorted portion.
+*Initially all unsorted numbers are part of unsorted list in the right and then as we begin sorting we put sorted numbers to the left.
+*We begin sorting from the second element, because the first element being only one element is already considered sorted.
+*
+/
 #include<stdio.h>
 
 void insertionSort(int *array, int size)
