@@ -1,6 +1,8 @@
+/*
+*Author: Alok Sharma
+*Interactive program to perform Binary Search recursively on user entered array.
+*/
 #include<stdio.h>
-
-
 
 void getArray(int *array, int size)
 {
