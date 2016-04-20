@@ -1,5 +1,7 @@
 /*Author: Alok Sharma
 * This prints the Fibonacci number for a given number using Dynamic Programming.
+*This is Bottom Up approach since first we find small values and from them find the larger values.
+*i.e. we find solutions to small subproblems and then from them build solutions to larger problems.
 */
 
 #include<stdio.h>
