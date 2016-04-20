@@ -16,7 +16,7 @@ int Fib(int n)
   memo[1] =1;
   for(i=2;i<n;i++)
   {
-    memo[i] = Fib(n-1)+Fib(n-2); //Calculate only once the Fibonacci numbers till n-1 and store them in this array
+    memo[i] = memo[n-i] + memo[n-2]; 
   }
   return memo[n-1];
 }
