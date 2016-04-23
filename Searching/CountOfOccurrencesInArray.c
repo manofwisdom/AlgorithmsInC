@@ -5,7 +5,7 @@
 */
 
 #include<stdio.h>
-#include<stdbool.h> //to use boolean data type in C90
+#include<stdbool.h> //to use boolean data type in C99. (https://stackoverflow.com/questions/8133074/error-unknown-type-name-bool)
 
 int BinarySearchFirstOccurence(int A[], int n, int key, bool FirstOccurence)
 {
